@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E87630;
+    width: 100%;
+    height: 6vh;
+    font-family:  "Raleway", sans-serif;
+    font-optical-sizing: auto;;
+    color: white;
+    font-size: 14px;
+}
+.one{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    width: 18.5%;
+    font-size: 17px;
+}
+.parent{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.imga{
+    width: 9%;  
+}
+.img{
+    width: 10%;
+    height: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu1{
+    width: 5%;
+}
+.menu{
+    width: 45%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;
+    font-family:  "Raleway", sans-serif;
+    font-optical-sizing: auto;;
+    font-weight: 500;
+    color: #373736;   
+}
+.menu li{
+    width: 100%;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width:25%;
+    height: 15vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    font-size:20px;
+}
+.abt{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url(https://fusta-demo.myshopify.com/cdn/shop/files/breadcrumb-bg.jpg?v=1537511178);
+    background-size:100%;
+    background-repeat: no-repeat;
+    color:rgb(55, 54, 54);
+    gap: 15px;
+}
+.abt1{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color:#383939;
+    gap: 20px;
+    font-size: 18px;
+}
+.abt1 li a{
+    text-decoration: none;
+}
+.abt3{
+    color: orange;
+}
+.parent10{
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.parent11{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.parent12{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p12{
+    font-size: 35px;
+    color: #373736;
+}
+.p13{
+    font-size: 18px;
+    color: #373736;
+}
+.p14{
+    font-size: 18px;
+    color: #373736;
+}
+.p15{
+    color: black;
+}
+.p17{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+.txp{
+    display: flex;
+    align-items: center;
+}
+.txp1{
+    display: flex;
+    align-items: center;
+}
+.txp2{
+    display: flex;
+    align-items: center;
+}
+.p18{
+    width: 100%;
+    height: 5vh;
+    background-color: #d9dddd;
+    border: none;
+    border-radius: 3px;
+}
+.p19{
+    width: 100%;
+    height: 5vh;
+    background-color: #d9dddd;
+    border: none;
+    border-radius: 3px;
+}
+.p20{
+    width: 100%;
+    height: 15vh;
+    background-color: #d9dddd;
+    border: none;
+    border-radius: 3px;
+}
+.p21{
+    width: 35%;
+    height: 7vh;
+    background-color: #E87630;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+.lc{
+    margin: 0 auto;
+    width: 100%;
+    height:50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #F1F1F0;
+    gap: 20px;
+}
+.lc1{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left:50px;
+    font-size: 18px;
+}
+.lc2{
+    width: 17%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #383939;
+    font-size: 18px;
+}
+.ls{
+    font-weight:500;
+    font-size: 22px;
+    color: #4a4e4e;
+}
+.my{
+    height: 3vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(21, 105, 165);
+}
+@media(max-width:1200px){
+    .img{
+        width: 20%;
+        height: 25%;
+        background-size: 100%;
+    }
+    .abt{
+        width: 100%;
+        height: 20vh;
+        background-size: cover;
+    }
+    .menu{
+        font-size: 15px;
+        gap: 20px;
+    }
+    .p17{
+        width: 100%;
+        height: 20vh;
+    }
+    .p18{
+        width: 100%;
+        height: 15%;
+    }
+    .p19{
+        width: 100%;
+        height: 15%;
+    }
+    .p20{
+        width: 100%;
+        height: 35%;
+    }
+    .p21{
+        width: 60%;
+        height: 4vh;
+        font-size: 20px;
+    }
+    .parent10{
+        width: 80%;
+        height: 65vh;
+    }
+    .parent12{
+        width: 45%;
+        height: 100%;
+    }
+    .lc{
+        height: 40vh;
+    }
+    .my{
+        height: 4vh;
+    }
+}
+@media(max-width:600px){
+    .menu{
+        display: none;
+    }
+    .head{
+        width: 100%;
+        height:9vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        gap: 15px;
+    }
+    .one{
+        width: 100%;
+        height: 2vh;
+    }
+    .second{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        width: 30%;
+        background-size: 100%;
+    }
+    .icon{
+        width: 50%;
+        height: 100%;
+    }
+    .parent10{
+        margin: 0 auto;
+        width: 80%;
+        height:90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .parent11{
+        width: 100%;
+        height:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .p16{
+       width: 100%; 
+    }
+    .p15{
+        width:50%;
+    }
+    .p17{
+        width: 100%;
+        height: 35vh;
+    }
+    .p18{
+        font-size: 15px;
+    }
+    .p19{
+        font-size: 15px;
+    }
+    .p20{
+        font-size: 15px;
+    }
+    .p21{
+        width: 45%;
+        height: 6vh;
+    }
+    .parent12{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lc{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ls{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    .lc1{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 19px;
+    }
+    .lc2{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 19px;
+    }
+}
+

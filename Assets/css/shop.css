@@ -1,0 +1,508 @@
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E87630;
+    width: 100%;
+    height: 6vh;
+    color: white;
+    font-size: 14px;
+}
+.one{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    width: 18.5%;
+    font-size: 17px;
+}
+.parent{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.imga{
+    width: 9%;  
+}
+.img{
+    width: 10%;
+    height: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu1{
+    width: 5%;
+}
+.menu{
+    width: 45%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #373736;   
+}
+.menu li{
+    width: 100%;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width:25%;
+    height: 15vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    font-size:20px;
+}
+.bc{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #393938;
+    gap: 20px;
+    background-image: url(https://fusta-demo.myshopify.com/cdn/shop/files/breadcrumb-bg.jpg?v=1537511178);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+.bc1{
+    list-style: none;
+    display: flex;
+    color: #393938;
+    gap: 20px;
+}
+.bc1 li a{
+    text-decoration: none;
+}
+.bc2{
+    color: chocolate;
+}
+.bc3{
+    color:  #393938;
+}
+.parentbar{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.textbar{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: #262424;
+}
+.t1{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #6f6c6c;
+    border-bottom: 20px saddlebrown;
+}
+.t2{
+    font-size: 18px;
+}
+.bb{
+    width:50%;
+    height: 5vh;
+    font-size: 15px;
+}
+.bn{
+    width:70%;
+    height: 5vh;
+    font-size: 15px;
+}
+.btn{
+    width: 25%;
+    height: 5vh;
+    font-size: 14px;
+    background-color: #272625;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.t4{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.t5{
+    color: #6f6c6c;
+}
+.fedbox{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fieldbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+}
+.nn{
+    width: 66%;
+    height: 27px;
+}
+.box{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box1{
+    width: 10%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    color:#e79d1e;
+}
+.emtye{
+    width: 60%;
+}
+.box2{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+}
+.par3{
+    width: 75%;
+    height: 100%;
+}
+.parentbar1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.imgbar1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.imgbar2{
+    width: 100%;
+    height: 85%;
+}
+.imgbar1:hover .imgbar2{
+    filter: contrast(50%);
+    transition: 0.80s;
+}
+.h1{
+    width:20%;
+    height:4vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 6%;
+    top: 2%;
+    font-size: 17PX;
+    border:none;
+    background-color:white;
+    color: #272626;
+}
+.h2{
+    width:20%;
+    height:4vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 11%;
+    left: 6%;
+    border: none;
+    font-size: 15PX;
+    background-color:white;
+    color: #262424;
+}
+.h3{
+    width: 100%;
+    height:7vh;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+    top: 40%;
+    display: none;
+}
+.imgbar1:hover .h3{
+    display: block;
+    display: flex;
+}
+.h4{
+    width: 20%;
+    height: 7vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h5{
+    width: 20%;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h6{
+    width: 20%;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 60%;
+}
+.l1{
+    width: 100%;
+    height: 1px;
+    background-color: #797373;
+}
+.l2{
+    width: 100%;
+    height: 1px;
+    background-color: #9a9797;
+}
+.l3{
+    width: 100%;
+    height: 15vh;
+}
+.lc{
+    margin: 0 auto;
+    width: 100%;
+    height:50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #F1F1F0;
+    gap: 20px;
+}
+.lc1{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left:50px;
+}
+.lc2{
+    width: 17%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.ls{
+    font-weight:500;
+    font-size: large;
+}
+.end{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E5E5E4;
+    gap: 20px;
+}
+.end1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+@media(max-width:1200px){
+    .img{
+        width: 25%;
+    }
+    .menu{
+        font-size: 15px;
+    }
+    .bc{
+        margin: 2%;
+        width: 100%;
+        height:20vh;
+        background-size: cover;
+    }
+    .textbar{
+        display: none;
+    }
+    .par3{
+        width: 100%;
+        height: 100%;
+    }
+    .box{
+        width: 100%;
+        height: 4vh;
+    }
+    .h1{
+        width: 20%;
+        height: 25px;
+    }
+    .h2{
+        width: 20%;
+        height: 25px;
+    }
+    .h5{
+        width: 20%;
+        height: 35px;
+    }
+    .h6{
+        width: 20%;
+        height: 35px;
+    }
+    .h4{
+        width: 20%;
+        height: 35px;
+    }
+    .lc{
+    height: 40vh;
+    }
+}
+@media(max-width:600px){
+    .menu{
+        display: none;
+    }
+    .img{
+        width: 30%;
+        height: 50px;
+        background-size: 100%;
+    }
+    .icon{
+        width: 55%;
+    }
+    .head{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .one{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .parentbar1{
+        display: flex;
+        flex-direction: column;
+    }
+    .h4{
+        width: 20%;
+        height: 6vh;
+    }
+    .h5{
+        width: 20%;
+        height: 6vh;
+    }
+    .h6{
+        width: 20%;
+        height: 6vh;
+    }
+    .fedbox{
+        width: 100%;
+        height: 100%;
+    }
+    .box1{
+       width: 20%;
+    }
+    .box2{
+        width: 100%;
+        font-size: 15px;
+    }
+    .last{
+        width: 100%;
+        height: 4vh;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lc{
+        padding: 12px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ls{
+        width: 100%;
+        height: 4vh;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .lc1{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .lc2{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
